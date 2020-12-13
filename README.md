@@ -6,6 +6,13 @@ https://pqrs.org/osx/karabiner/
 
 https://pqrs.org/osx/karabiner/json.html
 
+### Setting file path.
+
+``` bash
+# for Mac
+~/.config/karabiner/assets/complex_modifications/
+```
+
 ### Sample
 
 ``` json

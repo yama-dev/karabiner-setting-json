@@ -22,7 +22,7 @@
           "conditions": [
             {
               "type": "frontmost_application_unless",
-              "bundle_identifiers": [ "com\\.apple\\.Terminal", "org\\.vim\\.MacVim" ]
+              "bundle_identifiers": [ "com\\.apple\\.Terminal", "org\\.vim\\.MacVim", "com\\.googlecode\\.iterm2" ]
             }
           ]
         },
@@ -44,7 +44,7 @@
           "conditions": [
             {
               "type": "frontmost_application_unless",
-              "bundle_identifiers": [ "com\\.apple\\.Terminal", "org\\.vim\\.MacVim" ]
+              "bundle_identifiers": [ "com\\.apple\\.Terminal", "org\\.vim\\.MacVim", "com\\.googlecode\\.iterm2" ]
             }
           ]
         }
