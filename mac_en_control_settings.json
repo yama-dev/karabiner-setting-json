@@ -1,13 +1,13 @@
 {
-  "title": "mac(en) capslock settings",
+  "title": "mac(en) control settings",
   "rules": [
     {
-      "description": "capslock to left_command (without Terminal and MacVim)",
+      "description": "left_control to left_command(Terminal and MacVim)",
       "manipulators": [
         {
           "type": "basic",
           "from": {
-            "key_code": "caps_lock",
+            "key_code": "left_control",
             "modifiers": {
               "optional": [
                 "any"
@@ -21,7 +21,7 @@
           ],
           "conditions": [
             {
-              "type": "frontmost_application_unless",
+              "type": "frontmost_application_if",
               "bundle_identifiers": [
                 "com\\.apple\\.Terminal",
                 "org\\.vim\\.MacVim",
@@ -35,12 +35,12 @@
       ]
     },
     {
-      "description": "capslock to left_control(Terminal and MacVim)",
+      "description": "right_control to right_command(Terminal and MacVim)",
       "manipulators": [
         {
           "type": "basic",
           "from": {
-            "key_code": "caps_lock",
+            "key_code": "right_control",
             "modifiers": {
               "optional": [
                 "any"
@@ -49,7 +49,7 @@
           },
           "to": [
             {
-              "key_code": "left_control"
+              "key_code": "right_command"
             }
           ],
           "conditions": [
